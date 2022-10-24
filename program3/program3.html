@@ -1,0 +1,58 @@
+<!-- created by Samira Arte -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<style type='text/css'>
+    
+    fieldset {
+      padding:10px;
+      width:350px;
+      line-height:1.8;}
+
+</style>
+<script src="program3.js"></script>
+<body>
+    <h1>program3</h1>
+    <form name="myform" action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+        <table width="auto" cellspacing="5" cellpadding="5">
+            <div>
+        
+            <tr><td>Applicant's full name</td><td><select><option>Mr</option><option>Mrs</option><option>miss</option></select><input type="text" name="name"></td></tr>
+        
+            </div>
+            <div>
+               <tr><td>Gender</td><td><form>Male <input type="radio">Female <input type="radio">Others <input type="radio"></form></td></tr>
+            </div>
+            <div>
+                <tr><td>Martial status</td><td><select><option>..Select..</option><option>married</option><option>unmarried</option></select></td></tr>
+            </div>
+            <div>
+                <tr><td>Date of Birt</td><td><input type="date"></td></tr>
+            </div>
+            <div>
+                <tr><td>Mobile number</td><td><input type="text" name="mobile"></td></tr>
+            </div>
+            <div>
+                <tr></td><td>Email ID</td><td><input type="email" name="email" placeholder="abc@gmail.com"></td></tr>
+            </div>
+            <div>
+                <tr><td>Address Line1</td><td><input type="text"></td></tr>
+            </div>
+            <div>
+                <tr><td>Address Line2</td><td><input type="text"></td></tr>
+            </div>
+            
+        </table>
+        </fieldset>
+        <br></br>
+        <div>
+            <input type="submit" value="submit" onclick="validate()">
+            <input type="reset">
+        </div>
+        </form>
+</body>
+</html>
